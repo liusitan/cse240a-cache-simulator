@@ -1,0 +1,1 @@
+bunzip2 -kc /home/wsl/cse240a-cache-simulator/traces/insertsort.bz2 | ./src/cache --icache=128:2:2 --dcache=64:4:2 --l2cache=128:8:50 --blocksize=128 --memspeed=100

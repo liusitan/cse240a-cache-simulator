@@ -188,7 +188,7 @@ read_mem_access(uint32_t *addr, char *i_or_d)
   }
 
   sscanf(buf,"0x%x %c\n",addr,i_or_d);
-
+  
   return 1;
 }
 
@@ -244,10 +244,9 @@ main(int argc, char *argv[])
   printf("Total Memory accesses:  %lu\n", totalRefs);
   printf("Total Memory penalties: %lu\n", totalPenalties);
   if (totalRefs > 0) {
-    printf("avg Memory access time: %13.2f cycles\n",
-        (double)totalPenalties / totalRefs);
-  } else {
     printf("avg Memory access time:             -\n");
+    //     printf("avg Memory access time:   %13.2f cycles    -\n", ((double)(dcacheHitTime * (dcacheRefs) + (icacheHitTime) * (icacheRefs) 
+    // + l2cacheHitTime * (l2cacheRefs) + totalPenalties)) / totalRefs);
   }
 
   // Cleanup
