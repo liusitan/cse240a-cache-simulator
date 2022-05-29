@@ -233,6 +233,9 @@ icache_access(uint32_t addr)
   // TODO: Implement I$
   //
   // check if the has this tag;
+    if(icacheAssoc == 0){
+    return l2cache_access(addr);
+  }
   icacheRefs++;
 
   parsed_address pa = parse_address(addr, blocksize, icacheSets);
@@ -278,6 +281,9 @@ dcache_access(uint32_t addr)
 {
   //
   // TODO: Implement D$
+  if(dcacheAssoc == 0){
+    return l2cache_access(addr);
+  }
   dcacheRefs++;
   parsed_address pa = parse_address(addr, blocksize, dcacheSets);
   set *s = &(dcache.sets[pa.index]);
