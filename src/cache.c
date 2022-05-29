@@ -266,7 +266,7 @@ icache_access(uint32_t addr)
     insert_to_set(s, pa);
     uint32_t penalty = l2cache_access(addr); 
     icachePenalties += penalty;
-    return icacheHitTime + l2cache_access(addr);
+    return icacheHitTime + penalty;
   }
 }
 

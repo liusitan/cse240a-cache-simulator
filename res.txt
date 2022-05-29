@@ -1,0 +1,170 @@
+-----------------mips-------------------------
+insert-sort
+Student Name:   Sitan Liu
+Student ID:     A53306512
+Student email:  sil017@ucsd.edu
+Simulator Memory Hierarchy:
+  I$ Configuration:
+    Size:  32 KB
+    Sets:  128
+    Assoc: 2
+    Lat:   2 Cycles
+  D$ Configuration:
+    Size:  32 KB
+    Sets:  64
+    Assoc: 4
+    Lat:   2 Cycles
+  L2$ Configuration:
+    Size:  128 KB
+    Sets:  128
+    Assoc: 8
+    Lat:   50 Cycles
+    Inclusive: No
+  Block Size: 128 Bytes
+  Memspeed:   100 Cycles
+Cache Statistics:
+  total I-cache accesses:   118797444
+  total I-cache misses:            10
+  total I-cache penalties:       1500
+  I-cache miss rate:                0.00%
+  avg I-cache access time:          2.00 cycles
+  total D-cache accesses:    31237729
+  total D-cache misses:           160
+  total D-cache penalties:      23900
+  D-cache miss rate:                0.00%
+  avg D-cache access time:          2.00 cycles
+  total L2-cache accesses:        180
+  total L2-cache misses:          169
+  total L2-cache penalties:     16900
+  L2-cache miss rate:              93.89%
+  avg L2-cache access time:       143.89 cycles
+Total Memory accesses:  150035173
+Total Memory penalties: 300094746
+avg Memory access time:             -
+mat_20M
+Student Name:   Sitan Liu
+Student ID:     A53306512
+Student email:  sil017@ucsd.edu
+Simulator Memory Hierarchy:
+  I$ Configuration:
+    Size:  32 KB
+    Sets:  128
+    Assoc: 2
+    Lat:   2 Cycles
+  D$ Configuration:
+    Size:  32 KB
+    Sets:  64
+    Assoc: 4
+    Lat:   2 Cycles
+  L2$ Configuration:
+    Size:  128 KB
+    Sets:  128
+    Assoc: 8
+    Lat:   50 Cycles
+    Inclusive: No
+  Block Size: 128 Bytes
+  Memspeed:   100 Cycles
+Cache Statistics:
+  total I-cache accesses:    18398965
+  total I-cache misses:             4
+  total I-cache penalties:        600
+  I-cache miss rate:                0.00%
+  avg I-cache access time:          2.00 cycles
+  total D-cache accesses:     1601035
+  total D-cache misses:         59179
+  total D-cache penalties:    6300350
+  D-cache miss rate:                3.70%
+  avg D-cache access time:          5.94 cycles
+  total L2-cache accesses:      59187
+  total L2-cache misses:        33418
+  total L2-cache penalties:   3341800
+  L2-cache miss rate:              56.46%
+  avg L2-cache access time:       106.46 cycles
+Total Memory accesses:  20000000
+Total Memory penalties: 46300550
+avg Memory access time:             -
+-----------------Alpha------------------------
+insert-sort
+Student Name:   Sitan Liu
+Student ID:     A53306512
+Student email:  sil017@ucsd.edu
+Simulator Memory Hierarchy:
+  I$ Configuration:
+    Size:  64 KB
+    Sets:  512
+    Assoc: 2
+    Lat:   2 Cycles
+  D$ Configuration:
+    Size:  64 KB
+    Sets:  256
+    Assoc: 4
+    Lat:   2 Cycles
+  L2$ Configuration:
+    Size:  8192 KB
+    Sets:  16384
+    Assoc: 8
+    Lat:   50 Cycles
+    Inclusive: No
+  Block Size: 64 Bytes
+  Memspeed:   100 Cycles
+Cache Statistics:
+  total I-cache accesses:   118797444
+  total I-cache misses:            19
+  total I-cache penalties:       2850
+  I-cache miss rate:                0.00%
+  avg I-cache access time:          2.00 cycles
+  total D-cache accesses:    31237729
+  total D-cache misses:           316
+  total D-cache penalties:      47300
+  D-cache miss rate:                0.00%
+  avg D-cache access time:          2.00 cycles
+  total L2-cache accesses:        354
+  total L2-cache misses:          334
+  total L2-cache penalties:     33400
+  L2-cache miss rate:              94.35%
+  avg L2-cache access time:       144.35 cycles
+Total Memory accesses:  150035173
+Total Memory penalties: 300118596
+avg Memory access time:             -
+mat_20M
+Student Name:   Sitan Liu
+Student ID:     A53306512
+Student email:  sil017@ucsd.edu
+Simulator Memory Hierarchy:
+  I$ Configuration:
+    Size:  64 KB
+    Sets:  512
+    Assoc: 2
+    Lat:   2 Cycles
+  D$ Configuration:
+    Size:  64 KB
+    Sets:  256
+    Assoc: 4
+    Lat:   2 Cycles
+  L2$ Configuration:
+    Size:  8192 KB
+    Sets:  16384
+    Assoc: 8
+    Lat:   50 Cycles
+    Inclusive: No
+  Block Size: 64 Bytes
+  Memspeed:   100 Cycles
+Cache Statistics:
+  total I-cache accesses:    18398965
+  total I-cache misses:             6
+  total I-cache penalties:        900
+  I-cache miss rate:                0.00%
+  avg I-cache access time:          2.00 cycles
+  total D-cache accesses:     1601035
+  total D-cache misses:         66372
+  total D-cache penalties:    3778400
+  D-cache miss rate:                4.15%
+  avg D-cache access time:          4.36 cycles
+  total L2-cache accesses:      66384
+  total L2-cache misses:         4604
+  total L2-cache penalties:    460400
+  L2-cache miss rate:               6.94%
+  avg L2-cache access time:        56.94 cycles
+Total Memory accesses:  20000000
+Total Memory penalties: 43778700
+avg Memory access time:             -
